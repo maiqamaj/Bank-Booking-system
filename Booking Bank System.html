@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿﻿
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -32,7 +33,6 @@
             background: #f8f6fd;
             width: 40%;
             padding: 30px;
-            
         }
 
         .close {
@@ -42,19 +42,26 @@
             font-weight: bold;
             cursor: pointer;
         }
+        .box1 {
+            position: absolute;
+            background-color: #ECE5B6;
+            width: 300px;
+            padding: 30px;
+            border-radius: 15px;
+        }
     </style>
     <script>
-                window.onload = function () {
-				document.getElementById('closex').onclick = function () {
-					document.getElementById('Window').style.display = "none";
-				};
+        window.onload = function () {
+            document.getElementById('closex').onclick = function () {
+                document.getElementById('Window').style.display = "none";
+            };
 
-				var span = document.getElementsByClassName("close")[0];
-				// When the user clicks "x" to close this window
-				span.onclick = function() {
-					document.getElementById('Window').style.display = "none";
-				};
-			};
+            var span = document.getElementsByClassName("close")[0];
+            // When the user clicks "x" to close this window
+            span.onclick = function () {
+                document.getElementById('Window').style.display = "none";
+            };
+        };
     </script>
 </head>
 <body>
@@ -76,5 +83,24 @@
 
         </div>
     </div>
+    <BR>
+    <center> <h1><b> Welcome to Bank Booking System  </b></h1></center>
+    <BR>
+    <BR>
+    <center> <h2> <b>Please Choose The Bank  </b></h2></center>
+    <BR>
+    <BR>
+    <BR>
+    <BR>
+    <BR>
+    <div class="box1" style="left:100px; top:220px">
+        <center>
+            <a href="https://www.hbtf.com/ar/pages/default.aspx" target="_blank"> <img src="https://s3-eu-west-1.amazonaws.com/static.jbcgroup.com/amd/pictures/d616ca7e6f79c9cd92b1ab92cb7f5cc0.jpg" height="100" width="300" alt="بنك القاهرة عمان(Cairo Amman Bank)" title="بنك القاهرة عمان(Cairo Amman Bank)">  </a>
+            <h2>Cairo Amman Bank</h2><BR>
+            <div class="button">
+                <a href=""><h3>click here </h3></a>
+        </center>
+    </div> </div>
+    <BR>
 </body>
 </html>
