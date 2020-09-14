@@ -13,9 +13,68 @@
             background-size: 100% 50%;
         }
 
+        #Window {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 99999;
+            height: 100%;
+            width: 100%;
+        }
+
+        .WindowC {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            border-radius: 15px;
+            transform: translate(-50%, -50%);
+            background: #f8f6fd;
+            width: 40%;
+            padding: 30px;
+            
+        }
+
+        .close {
+            color: black;
+            float: right;
+            font-size: 35px;
+            font-weight: bold;
+            cursor: pointer;
+        }
     </style>
+    <script>
+                window.onload = function () {
+				document.getElementById('closex').onclick = function () {
+					document.getElementById('Window').style.display = "none";
+				};
+
+				var span = document.getElementsByClassName("close")[0];
+				// When the user clicks "x" to close this window
+				span.onclick = function() {
+					document.getElementById('Window').style.display = "none";
+				};
+			};
+    </script>
 </head>
 <body>
+    <div id="Window">
+        <div class="WindowC">
+            <span class="close">×</span>
+            <br>
 
+            <h4 dir="rtl" align="right">الأن احجز موعدك دون الحاجه لأضاعه الوقت في بنكك الذي تتعامل معه والفرع الأقرب لديك </h4>
+
+            <center>
+                <span style="font-size:15px" right> يرحب بكم نحن سعيدون لتواجدكم معنا ويسرنا وجودكم في موقعنا الذي يوفر لكم الوقت والجهد </span><br><br>
+                <span style="font-size:15px">هل تريد الأستمرار في حجز موعدك في اي وقت يناسبك </span><br><br>
+                <span style="font-size:15px"> وفّر وقتك وشاركنا التجربة الجديدة الآن فقط في موقعنا الأول في الأردن كافه </span><br><br>
+                <span style="font-size:22px"> <b> Bank Booking system فريق </b></span>
+            </center><br><br>
+
+            <center><a id="closex" href="javascript:void(0);"><h2>الاستمرار لحجز موعد</h2></a></center>
+
+        </div>
+    </div>
 </body>
 </html>
