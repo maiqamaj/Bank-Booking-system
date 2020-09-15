@@ -4,7 +4,14 @@
 <meta charset = "utf-8">
 	<title></title>
 	<style>
- 		body { background-color: #f5f5f5 }
+ 		body { 
+
+            background-image: url('https://www.rafeeg.ae/ar/wp-content/uploads/2020/01/Gray-PowerPoint-background-picture-scaled.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+              background-size: 100% 100%;
+
+ 		 }
 
 	 .in {
                 background: #000;
@@ -17,7 +24,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background-color: #ECE5B6;
+            background-color: #97a24e;
             width: 300px;
             padding: 30px;
             border-radius: 10px;
@@ -29,7 +36,7 @@
 	<body  >
 	<div class="box1">
 <?php
-if(isset($_POST['Name'])||isset($_POST['email'])||isset($_POST['phone_number']) ){
+if(isset($_POST['Name'])||isset($_POST['email'])||isset($_POST['phone_number']) ||isset($_POST['national_number'])){
 $Name=$_POST['Name'];
 $national_number=$_POST['national_number'];
 $email=$_POST['email'];
