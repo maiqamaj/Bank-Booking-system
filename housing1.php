@@ -50,7 +50,7 @@
             </ul>
             <h3>خطوة: 2-1 تسجيل البيانات الشخصية</h3>
         </div>
-        <form >
+        <form method="POST" action="housing2.php">
             <fieldset>
                 <legend class="in">Booking Information</legend>
 
@@ -120,6 +120,8 @@
                     <option value="فرع ناعور">
                     <option value="فرع المطار">
                     <option value="فرع الجيزة">
+           
+ 
                 </datalist>
                 <br><br>
 
@@ -135,7 +137,7 @@
                 </datalist>
                 <br><br>
                 <strong>The Date</strong>
-                <input type="date" name="date" value="" id ="date" placeholder="الرجاء إختيار التاريخ">
+                <input type="date" name="date" id ="date" value="" placeholder="الرجاء إختيار التاريخ" >
                 <br><br>
                 <strong>The Time</strong>
                 <label for="time"></label>
@@ -164,10 +166,11 @@
 
                 </datalist>
             </fieldset>
-        </form>
-        <br>
-
-        <a href="http://localhost/bankbookingsystem.php"><input type="button" class="in" style="min-width:80px" value="Back"></a>
+            <br>
+             <a href="http://localhost/bankbookingsystem.php"> <input type="button" class="in" style="min-width:80px" value="Back"></a>
         <a href="http://localhost/housing2.php"><input type="submit" class="in" style="float: right;min-width:80px" value="Next Step"></input ></a>
+        </form>
+        
+       
     </body>
-    </HTML>
+    </HTML>  

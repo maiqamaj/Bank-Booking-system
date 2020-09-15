@@ -28,6 +28,20 @@
     </style>
 </head>
 <body>
+	<?php
+if(isset($_POST['date'])||isset($_POST['branch'])||isset($_POST['service']) ||isset($_POST['time'])){
+$branch=$_POST['branch'];
+$service=$_POST['service'];
+$date=$_POST['date'];
+$time=$_POST['time'];
+
+}
+
+echo " <br>Branch : ".$branch;
+echo " <br>Service : ".$service;
+echo " <br>Date : ".$date;
+echo " <br>Time : ".$time;
+?>
     <br>
     <div dir="rtl" align="right">
         <h3>استكمال الأجراءات لحجز موعد في بنك الأسكان </h3>

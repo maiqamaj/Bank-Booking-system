@@ -50,7 +50,7 @@
             <h3>خطوة: 2-1 تسجيل البيانات الشخصية</h3>
         </div>
 
-        <form  >
+        <form  method="POST" action="islamic2.php">
             <fieldset>
                 <legend class="in">Booking Information</legend>
 
@@ -143,10 +143,12 @@
 
                 </datalist>
             </fieldset>
+            <br>
+             <a href="http://localhost/bankbookingsystem.php"> <input type="button" class="in" style="min-width:80px" value="Back"></a>
+        <a href="http://localhost/islamic2.php"><input type="submit" class="in" style="float: right; min-width:80px" value="Next Step"></input ></a>
         </form>
         <br>
 
-        <a href="http://localhost/bankbookingsystem.php"> <input type="button" class="in" style="min-width:80px" value="Back"></a>
-        <a href="http://localhost/islamic2.php"><input type="submit" class="in" style="float: right; min-width:80px" value="Next Step"></input ></a>
+       
     </body>
     </HTML>

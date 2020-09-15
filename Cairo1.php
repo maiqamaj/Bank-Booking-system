@@ -30,6 +30,7 @@
     </script>
 </head>
 <body>
+
     <center><h1> Cairo Amman Bank </h1></center>
     <div dir="rtl" align="right">
         <h2> احجز موعدك قبل زيارة الفرع بأتباع الخطوات التالية</h2>
@@ -49,7 +50,7 @@
         </ul>
         <h3>خطوة: 2-1 تسجيل البيانات الشخصية</h3>
     </div>
-    <form >
+    <form method="POST" action="Cairo2.php">
         <fieldset>
             <legend class="in">Booking Information</legend>
 
@@ -96,56 +97,57 @@
                 <option value="مكتب جمرك عمان">
                 <option value="مكتب كوزمو">
 
-            </datalist>
+ 
+                </datalist>
+                <br><br>
+
+                <strong>The Service</strong>
+                <label for="service"></label>
+                <input placeholder="الرجاء إختيار الخدمة" list="Service" id="service" name="service" />
+                <datalist id="Service">
+                    <option value="السحب والايداع">
+                    <option value="صرف شيكات">
+                    <option value="خدمه العملاء">
+                    <option value="البطاقات الائتمانيه">
+
+                </datalist>
+                <br><br>
+                <strong>The Date</strong>
+                <input type="date" name="date" id ="date" value="" placeholder="الرجاء إختيار التاريخ" >
+                <br><br>
+                <strong>The Time</strong>
+                <label for="time"></label>
+                <input placeholder="الرجاء إختيار الوقت" list="Time" id="time" name="time" type="time" />
+
+                <datalist id="Time">
+
+                    <option value="10:00">
+                    <option value="10:15">
+                    <option value="10:30">
+                    <option value="10:45">
+                    <option value="11:00">
+                    <option value="11:15">
+                    <option value="11:30">
+                    <option value="11:45">
+                    <option value="12:30">
+                    <option value="12:45">
+                    <option value="13:00">
+                    <option value="13:15">
+                    <option value="13:30">
+                    <option value="13:45">
+                    <option value="14:00">
+                    <option value="14:15">
+                    <option value="14:30">
+                    <option value="14:45">
+
+                </datalist>
+            </fieldset>
             <br>
-            <div class="word-spacing: 800px" >
-                <br>
-            </div>
-            <strong>The Service</strong>
-            <label for="service"></label>
-            <input placeholder="الرجاء إختيار الخدمة" list="Service" id="service" name="service" />
-            <datalist id="Service">
-                <option value="السحب والايداع">
-                <option value="صرف شيكات">
-                <option value="خدمه العملاء">
-                <option value="البطاقات الائتمانيه">
+             <a href="http://localhost/bankbookingsystem.php"> <input type="button" class="in" style="min-width:80px" value="Back"></a>
+         <a href="http://localhost/Cairo2.php" ><input type="submit" class="in" style="float: right; min-width:80px"  value="Next Step" ></input ></a>
+        </form>
+        
 
-            </datalist>
-            <br><br>
-            <strong>The Date</strong>
-            <input type="date" name="date" value="" id ="date" placeholder="الرجاء إختيار التاريخ" >
-            <br><br>
-            <strong>The Time</strong>
-            <label for="time"></label>
-            <input placeholder="الرجاء إختيار الوقت" list="Time" id="time" name="time" type="time" />
-
-            <datalist id="Time">
-
-                <option value="10:00">
-                <option value="10:15">
-                <option value="10:30">
-                <option value="10:45">
-                <option value="11:00">
-                <option value="11:15">
-                <option value="11:30">
-                <option value="11:45">
-                <option value="12:30">
-                <option value="12:45">
-                <option value="13:00">
-                <option value="13:15">
-                <option value="13:30">
-                <option value="13:45">
-                <option value="14:00">
-                <option value="14:15">
-                <option value="14:30">
-                <option value="14:45">
-
-            </datalist>
-        </fieldset>
-    </form>
-    <br>
-
-    <a href="http://localhost/bankbookingsystem.php"> <input class="in" type="button" style="min-width:80px" value="Back"></a>
-    <a href="http://localhost/Cairo2.php" ><input type="submit" class="in" style="float: right; min-width:80px"  value="Next Step" ></input ></a>
-</body>
-</HTML>
+       
+    </body>
+    </HTML>  
