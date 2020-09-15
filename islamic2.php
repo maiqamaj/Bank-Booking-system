@@ -38,11 +38,15 @@ $date=$_POST['date'];
 $time=$_POST['time'];
 
 }
-
+$connection = new mysqli("localhost","root","","islamic bank");
+$stmt = $connection->prepare("insert into booking(branch,service,date,time) values(?,?,?,?);");
+$stmt->bind_param("ssss",$branch,$service,$date,$time);
+$stmt->execute();
 echo " <br>Branch : ".$branch;
 echo " <br>Service : ".$service;
 echo " <br>Date : ".$date;
 echo " <br>Time : ".$time;
+$connection->close();
 ?>
     <br>
 

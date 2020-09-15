@@ -27,7 +27,7 @@
     </style>
 </head>
     <body>
-        <?php
+<?php
 if(isset($_POST['date'])||isset($_POST['branch'])||isset($_POST['service']) ||isset($_POST['time'])){
 $branch=$_POST['branch'];
 $service=$_POST['service'];
@@ -35,11 +35,17 @@ $date=$_POST['date'];
 $time=$_POST['time'];
 
 }
-
+$connection = new mysqli("localhost","root","","cairo bank");
+$stmt = $connection->prepare("insert into booking(branch,service,date,time) values(?,?,?,?);");
+$stmt->bind_param("ssss",$branch,$service,$date,$time);
+$stmt->execute();
 echo " <br>Branch : ".$branch;
 echo " <br>Service : ".$service;
 echo " <br>Date : ".$date;
 echo " <br>Time : ".$time;
+
+$connection->close();
+
 ?>
         <br>
         <div dir="rtl" align="right">

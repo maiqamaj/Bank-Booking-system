@@ -36,11 +36,16 @@ $date=$_POST['date'];
 $time=$_POST['time'];
 
 }
-
+$connection = new mysqli("localhost","root","","housing bank");
+$stmt = $connection->prepare("insert into booking(branch,service,date,time) values(?,?,?,?);");
+$stmt->bind_param("ssss",$branch,$service,$date,$time);
+$stmt->execute();
 echo " <br>Branch : ".$branch;
 echo " <br>Service : ".$service;
 echo " <br>Date : ".$date;
 echo " <br>Time : ".$time;
+
+$connection->close();
 ?>
     <br>
     <div dir="rtl" align="right">
