@@ -27,8 +27,7 @@
     </style>
 </head>
 <body>
-    </head>
-    <body>
+
         <br>
         <div dir="rtl" align="right">
             <h3>استكمال الأجراءات لحجز موعد في بنك القاهرة عمان</h3>
