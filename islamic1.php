@@ -57,7 +57,7 @@
                 <strong><span style="color: #d61209">*</span>Choose your branch</strong>
                
                 <label for="branch"></label>
-                <input dir="ltr" align="right" placeholder="الرجاء اختيار الفرع" list="Branch" id="branch" name="branch" />
+                <input dir="ltr" align="right" placeholder="الرجاء اختيار الفرع" list="Branch" id="branch" name="branch" required/>
                 <datalist id="Branch">
                     <option value="فرع ابو نصير">
                     <option value="فرع البيادر">
@@ -104,7 +104,7 @@
 
                 <strong><span style="color: #d61209">*</span>The Service</strong>
                 <label for="service"></label>
-                <input placeholder="الرجاء إختيار الخدمة" list="Service" id="service" name="service" />
+                <input placeholder="الرجاء إختيار الخدمة" list="Service" id="service" name="service" required/>
                 <datalist id="Service">
                     <option value="السحب والايداع">
                     <option value="صرف شيكات">
@@ -114,11 +114,11 @@
                 </datalist>
                 <br><br>
                 <strong><span style="color: #d61209">*</span>The Date</strong>
-                <input type="date" name="date" id ="date" value="" placeholder="الرجاء إختيار التاريخ" >
+                <input type="date" name="date" id ="date" value="" placeholder="الرجاء إختيار التاريخ" required>
                 <br><br>
                 <strong><span style="color: #d61209">*</span>The Time</strong>
                 <label for="time"></label>
-                <input placeholder="الرجاء إختيار الوقت" list="Time" id="time" name="time" type="time" />
+                <input placeholder="الرجاء إختيار الوقت" list="Time" id="time" name="time" type="time" required/>
 
                 <datalist id="Time">
 
