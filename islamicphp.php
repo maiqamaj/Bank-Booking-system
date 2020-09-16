@@ -24,7 +24,6 @@
             position: absolute;
             top: 50%;
             left: 50%;
-
             transform: translate(-50%, -50%);
             background-color: #bc6f52;
             width: 300px;

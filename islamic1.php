@@ -54,7 +54,7 @@
             <fieldset>
                 <legend class="in">Booking Information</legend>
 
-                <strong><span style="color: #d61209">*</span>Choose your branch</strong>
+                <strong><span style="color: #d61209">*</span> Choose your branch</strong>
                
                 <label for="branch"></label>
                 <input dir="ltr" align="right" placeholder="الرجاء اختيار الفرع" list="Branch" id="branch" name="branch" required/>
@@ -113,7 +113,7 @@
 
                 </datalist>
                 <br><br>
-                <strong><span style="color: #d61209">*</span>The Date</strong>
+                <strong><span style="color: #d61209">*</span> The Date</strong>
                 <input type="date" name="date" id ="date" value="" placeholder="الرجاء إختيار التاريخ" required>
                 <br><br>
                 <strong><span style="color: #d61209">*</span>The Time</strong>

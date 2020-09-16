@@ -42,10 +42,14 @@ $connection = new mysqli("localhost","root","","islamic bank");
 $stmt = $connection->prepare("insert into booking(branch,service,date,time) values(?,?,?,?);");
 $stmt->bind_param("ssss",$branch,$service,$date,$time);
 $stmt->execute();
+
+
+
 echo " <br>Branch : ".$branch;
 echo " <br>Service : ".$service;
 echo " <br>Date : ".$date;
 echo " <br>Time : ".$time;
+
 $connection->close();
 ?>
     <br>
@@ -53,7 +57,9 @@ $connection->close();
     <div dir="rtl" align="right">
         <h3>استكمال الأجراءات لحجز موعد في بنك الأسلامي الأردني</h3>
         <h3>خطوة: 2-2 تسجيل البيانات الشخصية</h3>
+
     </div>
+
     <br>
     <form method="POST" action="islamicphp.php">
         <fieldset>
