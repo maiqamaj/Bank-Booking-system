@@ -60,7 +60,7 @@ $connection->close();
             <br> <br>
             <strong><span style="color: #d61209">*</span>Your National Number</strong>	 <input type="text" id="national_number" name="national_number" value="" placeholder="ادخل رقمك الوطني" required>
             <br><br>
-            <strong><span style="color: #d61209">*</span>Your E-mail</strong>	 <input type="text" id="email" name="email" value="" placeholder="ادخل بريدك الألكتروني" required>
+            <strong><span style="color: #d61209">*</span>Your E-mail</strong>	 <input type="text" id="email" name="email" value="" placeholder="ادخل بريدك الألكتروني" required>&nbsp&nbsp<span style=" background-color: #fffc3a "> يجب أن يكون متاح  *</span>
             <br><br>
             <strong><span style="color: #d61209">*</span>Your Phone Number</strong>	 <input type="text" id="phone_number" name="phone_number" value="" placeholder="ادخل رقم هاتفك" required>
             <br><br>
