@@ -56,13 +56,13 @@ $connection->close();
     <form method="POST" action="housingphp.php">
         <fieldset>
             <legend class="in">Personal Information</legend>
-            <strong>Your Name</strong>	 <input type="text" id="Name" name="Name" value="" placeholder="ادخل اسمك الثلاثي" required>
+            <strong><span style="color: #d61209">*</span>Your Name</strong>	 <input type="text" id="Name" name="Name" value="" placeholder="ادخل اسمك الثلاثي" required>
             <br> <br>
-            <strong>Your National Number</strong>	 <input type="text" id="national_number" name="national_number" value="" placeholder="ادخل رقمك الوطني" required>
+            <strong><span style="color: #d61209">*</span>Your National Number</strong>	 <input type="text" id="national_number" name="national_number" value="" placeholder="ادخل رقمك الوطني" required>
             <br><br>
-            <strong>Your E-mail</strong>	 <input type="text" id="email" name="email" value="" placeholder="ادخل بريدك الألكتروني" required>
+            <strong><span style="color: #d61209">*</span>Your E-mail</strong>	 <input type="text" id="email" name="email" value="" placeholder="ادخل بريدك الألكتروني" required>
             <br><br>
-            <strong>Your Phone Number</strong>	 <input type="text" id="phone_number" name="phone_number" value="" placeholder="ادخل رقم هاتفك" required>
+            <strong><span style="color: #d61209">*</span>Your Phone Number</strong>	 <input type="text" id="phone_number" name="phone_number" value="" placeholder="ادخل رقم هاتفك" required>
             <br><br>
         </fieldset>
         <br>
