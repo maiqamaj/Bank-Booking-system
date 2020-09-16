@@ -9,10 +9,12 @@
     <style>
         body {
             background-color: #00071c;
+          
             background-image: url('https://www.dbs.com.hk/iwov-resources/media/images/products/deposit/main-banner/deposits-multi-currency-account-1404x630-en.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100% 50%;
+
         }
 
         #Window {
@@ -104,30 +106,27 @@
     <BR>
     <BR>
     <center> <h2> <b>Please Choose The Bank  </b></h2></center>
-    <BR>
-    <BR>
-    <BR>
-    <BR>
-    <BR>
-    <div class="box1" style="left:100px; top:220px">
+  
+
+    <div class="box1" style="left:100px; top:240px">
         <center>
-            <a href="https://www.hbtf.com/ar/pages/default.aspx" target="_blank"> <img src="https://s3-eu-west-1.amazonaws.com/static.jbcgroup.com/amd/pictures/d616ca7e6f79c9cd92b1ab92cb7f5cc0.jpg" height="100" width="300" alt="بنك القاهرة عمان(Cairo Amman Bank)" title="بنك القاهرة عمان(Cairo Amman Bank)">  </a>
+            <a href="https://www.cab.jo/ar" target="_blank"> <img src="https://s3-eu-west-1.amazonaws.com/static.jbcgroup.com/amd/pictures/d616ca7e6f79c9cd92b1ab92cb7f5cc0.jpg" height="100" width="300" alt="بنك القاهرة عمان(Cairo Amman Bank)" title="بنك القاهرة عمان(Cairo Amman Bank)">  </a>
             <h2>Cairo Amman Bank</h2><BR>
             <div class="button">
                 <a href="http://localhost/Cairo1.php"><h3>click here </h3></a>
         </center>
     </div> </div>
     <BR>
-    <div class="box1" style="left:500px;top:220px">
+    <div class="box1" style="left:500px;top:240px">
         <center>
-            <a href="https://www.cab.jo/ar" target="_blank">
+            <a href="https://www.hbtf.com/ar/pages/default.aspx" target="_blank">
                 <img src="https://khaberni.b-cdn.net/uploads/news_model/2019/02/main_image5c6176886dc3b.png" height="100" width="300" alt="بنك الإسكان للتجارة والتمويل (Housing Bank)" title="بنك الإسكان للتجارة والتمويل (Housing Bank)">
             </a><h2>Housing Bank</h2><BR>
             <div class="button">
                 <a href="http://localhost/housing1.php"><h3>click here </h3></a>
         </center>
     </div> </div> <BR>
-    <div class="box1" style="left:900px;top:220px">
+    <div class="box1" style="left:900px;top:240px">
         <center>
             <a href="https://www.jordanislamicbank.com/" target="_blank">
                 <img src="https://www.arabnak.com/wp-content/uploads/2015/12/%D8%A7%D9%84%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A-%D8%A7%D9%84%D8%A7%D8%B1%D8%AF%D9%86%D9%8A.jpg" height="100" width="300" alt="البنك الإسلامي الأردني (Jordan Islamic Bank)" title="البنك الإسلامي الأردني (Jordan Islamic Bank)">
@@ -137,5 +136,6 @@
         </center>
     </div>
     </div>
+
 </body>
 </html>
